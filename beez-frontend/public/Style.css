@@ -1,0 +1,195 @@
+.firstContainer {
+  background:
+    /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("images/honey-and-honeycomb-slice-1.jpg");
+  opacity: 2;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  margin-top: -470px;
+  width: 94%;
+  margin-left: 3%;
+  border-radius: 10px;
+  position: sticky;
+}
+.FAQ {
+  color: white;
+  text-align: center;
+  padding-top: 220px;
+  font-weight: bold;
+}
+.faq-header {
+  font-size: 42px;
+  border-bottom: 1px dotted #ccc;
+  padding: 24px;
+}
+
+.faq-content {
+  float: right;
+  margin-top: -400px;
+  margin-right: 50px;
+}
+
+.faq-question {
+  padding: 20px 0;
+  border-bottom: 1px dotted #ccc;
+  background-color: #fbf9f6;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.panel-title {
+  font-size: 24px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 10px 10px 0 48px;
+  display: block;
+  cursor: pointer;
+}
+.panel-content {
+  font-size: 20px;
+  padding: 0px 14px;
+  margin: 0 40px;
+  height: 0;
+  overflow: hidden;
+  z-index: 20;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.panel:checked ~ .panel-content {
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+
+.plus {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 4px;
+  z-index: 5;
+  font-size: 42px;
+  line-height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.panel:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.panel {
+  display: none;
+}
+.popularQ {
+  margin-top: 500px;
+  margin-left: 180px;
+}
+.QandA h1{
+  text-align: center;
+  color: #57401d;
+  margin-bottom: 10px;
+}
+.contentQ{
+  margin-left:20% ;
+}
+.QandA div{
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+.BlogContainer{
+  margin-top: 500px;
+  margin-bottom: 100px;
+  width: 90%;
+  margin-left: 5%;
+}
+.BlogContainer h4{
+  font-weight: bold;
+}
+
+table tr td{
+  border-spacing: 5em;
+  padding-left: 40px;
+  border-radius: 10px;
+}
+td img{
+  border-radius: 10px;
+}
+#contact{
+  margin-top: 300px;
+}
+
+.adress  {
+  transition: 2s linear;
+}
+
+.adress :hover {
+  transform: scale(1.1);
+}
+.email  {
+  transition: 2s linear;
+}
+
+.email :hover {
+  transform: scale(1.1);
+}
+.phone  {
+  transition: 2s linear;
+}
+
+.phone :hover {
+  transform: scale(1.1);
+}
+
+.form-container {
+  margin-left: 30%;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+.input {
+  background-color: #fbf9f6;
+  width: 500px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 12px;
+}
+
+#inputmessage {
+  height: 120px;
+  padding-left: 10px;
+}
+
+.formtable  {
+  border-spacing: 5px;
+}
+
+.submitbutton {
+  margin-top: 15px;
+  background-color: #f1c36e;
+  border: #f1c36e;
+  border-radius: 12px;
+  padding: 10px 30px;
+  font-weight : bold;
+}
